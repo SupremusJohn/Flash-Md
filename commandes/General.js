@@ -2,7 +2,7 @@ const { france } = require("../framework/france");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-france({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+france({ nomCom: "owner", categorie: "General", reaction: "✨" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -55,8 +55,8 @@ france({ nomCom: "developer", categorie: "General", reaction: "💞" }, async (d
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "France King", numero: "254757835036" },
-      { nom: "᚛FranceKing᚜", numero: "254751284190" },
+      { nom: "H. John Supremus", numero: "22501373930" },
+      { nom: "H. John Supremus", numero: "22501373930" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
@@ -95,7 +95,7 @@ france({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpt
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zk.sendMessage(auteurMessage,{text : `https://wa.me/254757835036`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://wa.me/22501373930`},{quoted :ms})
 
 })
 
