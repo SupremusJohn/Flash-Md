@@ -2,7 +2,7 @@ const { zokou } = require('../framework/zokou');
 const { getData } = require('../bdd/fichetest');
 
 
-zokou(
+france(
   {
     nomCom: 'fichetest👤',
     categorie: 'RPSS'
